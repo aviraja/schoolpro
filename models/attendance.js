@@ -1,3 +1,4 @@
+
 const { Model } = require("sequelize");
 const { DataTypes} = require("sequelize");
 
@@ -32,4 +33,5 @@ module.exports = (sequelize) =>{
     );
 
     return Attendance;
+
 }

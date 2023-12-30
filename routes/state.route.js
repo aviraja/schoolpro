@@ -11,4 +11,5 @@ module.exports = app => {
     router.get("/query",state.findByQuery);
 
     app.use('/api/state', router);
+
 };

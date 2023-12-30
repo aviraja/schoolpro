@@ -9,4 +9,5 @@ module.exports = app => {
   router.get("/query", caste.findByQuery);
 
   app.use('/api/caste', router);
+
 };

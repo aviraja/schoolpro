@@ -11,4 +11,5 @@ module.exports = app => {
     router.get("/query",smsTemp.findByQuery);
 
     app.use('/api/sms_template', router);
+
 };

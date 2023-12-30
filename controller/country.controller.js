@@ -21,4 +21,5 @@ module.exports.findAllApproved = (req, res) => {
 module.exports.findByQuery = (req, res) => {
   return findByQuery(Country, req, res);
 }
+
   

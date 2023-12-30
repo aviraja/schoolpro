@@ -54,4 +54,5 @@ module.exports.create = (req, res) => {
 
 module.exports.findByQuery = (req, res) => {
   return findByQuery(Loginlog, req, res);
+
 }

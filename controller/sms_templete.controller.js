@@ -37,4 +37,5 @@ module.exports.findAllByName = (req, res) => {
 //retrieve sms template by query
 module.exports.findByQuery = (req, res) => {
     return findByQuery(SmsTemp, req, res);
+
 }

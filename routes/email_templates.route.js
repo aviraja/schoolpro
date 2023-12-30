@@ -11,4 +11,5 @@ module.exports = app => {
     router.get("/query",emailTemp.findByQuery);
 
     app.use('/api/email_templates', router);
+
 };

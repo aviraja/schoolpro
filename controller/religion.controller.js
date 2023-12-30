@@ -21,4 +21,5 @@ module.exports.findAllApproved = (req, res) => {
 //find all by query
 module.exports.findByQuery = (req, res) => {
   return findByQuery(Religion, req, res);
+
 }

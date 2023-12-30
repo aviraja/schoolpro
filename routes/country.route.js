@@ -9,4 +9,5 @@ module.exports = app => {
     router.get("/query", country.findByQuery);
 
     app.use('/api/country', router);
+
 };

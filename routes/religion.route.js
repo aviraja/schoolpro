@@ -9,4 +9,5 @@ module.exports = app => {
     router.get("/query",religion.findByQuery);
 
     app.use('/api/religion', router);
+
 };

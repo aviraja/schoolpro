@@ -8,4 +8,5 @@ module.exports = app => {
     router.get("/query", loginlog.findByQuery);
 
     app.use('/api/loginlogs', router);
+
 };

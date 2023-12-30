@@ -9,4 +9,5 @@ module.exports = app => {
     router.post("/resetPassword", login.resetPassword);
 
     app.use('/api/login', router);
+
 };

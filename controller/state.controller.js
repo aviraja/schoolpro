@@ -38,4 +38,5 @@ module.exports.findAllByCountry = (req, res) => {
 //retrieve state by query
 module.exports.findByQuery = (req, res) => {
     return findByQuery(State, req, res);
+
 }

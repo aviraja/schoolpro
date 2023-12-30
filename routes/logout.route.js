@@ -5,4 +5,5 @@ module.exports = app => {
     router.post("/", logout.logoutUser);
 
     app.use('/api/logout', router);
+
 };

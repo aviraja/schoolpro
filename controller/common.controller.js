@@ -15,4 +15,5 @@ module.exports.findByQuery = (table, req,res) => {
          message: err.message || "some error occurred while fetching data"
        });
     });
+
   };

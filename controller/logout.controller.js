@@ -29,4 +29,5 @@ const Register = db.registers;
         message: err.message || "Some error occurred while logout"
         });
     });
+
 }

@@ -37,4 +37,5 @@ module.exports.findAllByName = (req, res) => {
 //retrieve email template by query
 module.exports.findByQuery = (req, res) => {
     return findByQuery(EmailTemp, req, res);
+
 }

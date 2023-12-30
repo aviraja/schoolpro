@@ -7,4 +7,5 @@ module.exports = app => {
   router.get("/mobileVerification", smsUtils.mobileVerification);
 
   app.use('/api/sms', router);
+
 };

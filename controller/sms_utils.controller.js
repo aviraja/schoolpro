@@ -40,4 +40,5 @@ function sendOTPMessage(mobileNumber, message) {
   }).catch(error => {
     console.error(error.response);
   })
+
 }
